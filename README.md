@@ -1,9 +1,9 @@
 # F1 23 UDP | Library for use on ESP 32 / ESP8266 devices
-**Data Output from F1® 23 Game**
+**Data Output from F1® 24 Game**
 
 > Note from developer: I do not have F1 24 and therefore am unable to test the library, it is based on [f1-23-udp](https://github.com/MacManley/f1-23-udp) with the updated UDP documentation. Please create an issue if it does not work and I will fix it ASAP.
 
-This program captures and parses packets that are sent by the F1 2023 game. This library is written specifically for usage on the ESP32 and ESP8266.
+This program captures and parses packets that are sent by the F1 2024 game. This library is written specifically for usage on the ESP32 and ESP8266.
 
 # Usage:
 ```C
@@ -29,7 +29,7 @@ The F1 series of games support the output of certain game data across UDP connec
 
 The following information summarise these data structures so that developers of supporting hardware or software can configure these to work correctly with the F1 game. 
 
-> Note: To ensure that you are using the latest specification for this game, please check the official forum page [here](https://forums.codemasters.com/topic/80231-f1-2021-udp-specification/). 
+> Note: To ensure that you are using the latest specification for this game, please check the official forum page [here](https://answers.ea.com/t5/General-Discussion/F1-24-UDP-Specification/td-p/13745220). 
  
 ## Packet Information
 
@@ -96,6 +96,7 @@ The packets IDs are as follows:
 |Session History|11|Lap and tyre data for session|
 |Tyre Sets|12|Extended tyre set data|
 |Motion Ex|13|Extended motion data for player car|
+|Time Trial|14|Time Trial Specific Data|
 
 ## **Motion Packet**
 
