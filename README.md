@@ -1,4 +1,4 @@
-# F1 23 UDP | Library for use on ESP 32 / ESP8266 devices
+# F1 24 UDP | Library for use on ESP 32 / ESP8266 devices
 **Data Output from F1® 24 Game**
 
 > Note from developer: I do not have F1 24 and therefore am unable to test the library, it is based on [f1-23-udp](https://github.com/MacManley/f1-23-udp) with the updated UDP documentation. Please create an issue if it does not work and I will fix it ASAP.
