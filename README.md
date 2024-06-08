@@ -1,6 +1,8 @@
 # F1 23 UDP | Library for use on ESP 32 / ESP8266 devices
 **Data Output from F1® 23 Game**
 
+> Note from developer: I do not have F1 24 and therefore am unable to test the library, it is based on [f1-23-udp](https://github.com/MacManley/f1-23-udp) with the updated UDP documentation. Please create an issue if it does not work and I will fix it ASAP.
+
 This program captures and parses packets that are sent by the F1 2023 game. This library is written specifically for usage on the ESP32 and ESP8266.
 
 # Usage:
@@ -1156,7 +1158,7 @@ Here are the values used for some of the parameters in the UDP data output.
 ## **Team IDs**
 
 
-|**ID**|**Team**|
+|**ID**|**Team**|**ID**|**Team**|
 | :-: | :- | :-: | :- |
 |0|Mercedes|143|ART GP '23|
 |1|Ferrari|144|Campos '23|
