@@ -17,7 +17,7 @@ struct PacketHeader
     uint64_t m_sessionUID; // Unique identifier for the session
     float m_sessionTime; // Session timestamp
     uint32_t m_frameIdentifier; // Identifier for the frame the data was retrieved on
-    uint32_t m_overallframeIdentifier; // Identifier for the frame the data was retrieved on
+    uint32_t m_overallFrameIdentifier; // Identifier for the frame the data was retrieved on
     uint8_t m_playerCarIndex; // Index of player's car in the array
     uint8_t m_secondaryPlayerCarIndex; // Index of secondary player's car in the array (splitscreen)
     // 255 if no second player

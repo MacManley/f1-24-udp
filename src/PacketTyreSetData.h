@@ -9,7 +9,7 @@
 
 struct TyreSetData {
     uint8_t m_actualTyreCompound; // Actual tyre compound used
-    uint8_t m_VisualTyreCompound; // Visual tyre compound used
+    uint8_t m_visualTyreCompound; // Visual tyre compound used
     uint8_t m_wear; // Tyre wear (percentage)
     uint8_t m_available; // Whether this set is currently available
     uint8_t m_recommendedSession; // Recommended session for tyre set
