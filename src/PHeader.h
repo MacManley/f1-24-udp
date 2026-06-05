@@ -39,7 +39,7 @@ public:
     uint64_t m_sessionUID(void); // Unique identifier for the session
     float m_sessionTime(void); // Session timestamp
     uint32_t m_frameIdentifier(void); // Identifier for the frame the data was retrieved on
-    uint32_t m_overallframeIdentifier(void); // Identifier for the frame the data was retrieved on
+    uint32_t m_overallFrameIdentifier(void); // Identifier for the frame the data was retrieved on
     uint8_t m_playerCarIndex(void); // Index of player's car in the array
     uint8_t m_secondaryPlayerCarIndex(void); // Index of secondary player's car in the array (splitscreen) (255 if no second player)
     void push(char *receiveBuffer);

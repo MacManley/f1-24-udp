@@ -68,9 +68,9 @@ uint32_t PHeader::m_frameIdentifier(void)
     return m_header.m_frameIdentifier;
 }
 
-uint32_t PHeader::m_overallframeIdentifier(void)
+uint32_t PHeader::m_overallFrameIdentifier(void)
 {
-    return m_header.m_overallframeIdentifier;
+    return m_header.m_overallFrameIdentifier;
 }
 
 uint8_t PHeader::m_playerCarIndex(void)
